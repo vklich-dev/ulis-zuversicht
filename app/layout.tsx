@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import './serenity.css';
 
 export const metadata: Metadata = {
-  title: 'Ulis Zuversicht | Spirituelle Lebensberatung & Energiearbeit',
-  description: 'Kartenlegen, Energiearbeit, energetische Raumreinigung und manuelle Anwendungen in Langenau-Albeck bei Ulm.',
+  title: 'Ulis Zuversicht | Persönliche Begleitung, Energiearbeit & Kartenlegen',
+  description: 'Ulrike Mader begleitet Menschen in Langenau-Albeck bei Ulm mit Energiearbeit, Kartenlegen, Raumklärung und achtsamen manuellen Anwendungen.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
